@@ -6,7 +6,7 @@ import com.spring.jwt.model.domain.User;
 import com.spring.jwt.model.repository.UserRepository;
 import com.spring.jwt.security.JWTCreator;
 import com.spring.jwt.security.JWTObject;
-import com.spring.jwt.security.SecurityConfig;
+import com.spring.jwt.config.SecurityConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;

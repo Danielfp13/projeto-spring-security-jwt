@@ -1,5 +1,6 @@
 package com.spring.jwt.security;
 
+import com.spring.jwt.config.SecurityConfig;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.MalformedJwtException;
 import io.jsonwebtoken.SignatureException;
