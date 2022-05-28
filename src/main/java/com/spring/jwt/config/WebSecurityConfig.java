@@ -24,12 +24,13 @@ public class WebSecurityConfig {
     }
 
     private static final String[] SWAGGER_WHITELIST = {
-            "/v2/api-docs",
+            "/v3/api-docs/**",
             "/swagger-resources",
             "/swagger-resources/**",
             "/configuration/ui",
             "/configuration/security",
             "/swagger-ui.html",
+            "/swagger-ui/**",
             "/webjars/**"
     };
 
